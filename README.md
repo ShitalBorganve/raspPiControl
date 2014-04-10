@@ -1,8 +1,8 @@
-Um das raspPiControl betreiben zu koennen geht wie folgt vor:
+Um das raspBinterface betreiben zu koennen geht wie folgt vor:
 
 
 - apt-get install apache2 php5
-- sudo visudo
+- visudo /etc/sudoers
 
 Dort findet Ihr:
 ```
@@ -21,6 +21,6 @@ www-data ALL=(ALL) NOPASSWD: /sbin/shutdown
 
 - Pi haendisch rebooten
 - Dateien nach /var/www (oder einen Unterordner) kopieren
-- Adminpasswort in der config.php Ã¤ndern
+- Adminpasswort in der config.php ändern
 - http://name-oder-ip-des-pie/(evtl. Unterordner)
 - Spass haben :)
